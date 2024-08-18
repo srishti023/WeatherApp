@@ -1,6 +1,5 @@
 # Preview screeenshot
-![screenshot](https://github.com/srishti023/WeatherApp/raw/main/![Screenshot (20)](https://github.com/user-attachments/assets/78320133-0875-444e-a30e-4355bf6df515)
-)
+![Screenshot (20)](https://github.com/user-attachments/assets/78320133-0875-444e-a30e-4355bf6df515)
 
 # Getting Started with Create React App
 
