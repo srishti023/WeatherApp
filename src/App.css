@@ -285,21 +285,23 @@ div#txt {
 .dmy {
   float: left;
   text-align: left;
-  position: absolute;
+  width: 100%;
+  position: relative;
 }
 
 .temperature {
-  width: 50%;
-  float: right;
+  width: 100%;
+  float: none;
+  text-align: left;
   position: relative;
-  left: 10px;
+  margin-top: 20px; /* Add margin to separate temperature from date */
 }
 
 .temperature p {
   font-family: "Raleway", sans-serif;
   font-size: 80px;
   font-weight: 100;
-  margin: 0 40px;
+  margin: 0;
 }
 
 .temperature p span {
@@ -359,6 +361,11 @@ div#txt {
 .today-weather .search-box ul li{
   padding: 8px;
   cursor: pointer;
+}
+
+.today-weather .search-box ul li:hover {
+  background-color: #3a3a3a;
+  color: #fff;
 }
 
 .today-weather ul li span {
@@ -434,7 +441,7 @@ div#txt {
     font-size: 35px;
   }
   .temperature p {
-    font-size:60px;;
+    font-size: 60px;
   }
   .dmy {
     padding-top: 25px;
